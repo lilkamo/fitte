@@ -1,4 +1,4 @@
-const CACHE = 'fitte-v1';
+const CACHE = 'fitte-v2';
 const ASSETS = [
   '/',
   '/index.html'
