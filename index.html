@@ -783,7 +783,7 @@ async function startBgRemoval(dataUrl) {
     const d = imageData.data;
 
     for (let i = 0; i < mask.length; i++) {
-      if (mask[i] === 0) d[i * 4 + 3] = 0;
+      if (mask[i] === 1) d[i * 4 + 3] = 0;
     }
     octx.putImageData(imageData, 0, 0);
     result.categoryMask.close();
